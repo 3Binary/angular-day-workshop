@@ -1,1 +1,0 @@
-class Screencasts extends Controller

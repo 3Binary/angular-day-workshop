@@ -1,1 +1,0 @@
-class Readme extends Controller

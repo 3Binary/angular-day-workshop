@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "script.backend.js",
+  "sourceRoot": "",
+  "sources": [
+    "script.backend.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,MAAA,aAAA;;AAAA,EAAM;AACQ,IAAA,uBAAC,YAAD,GAAA;AACZ,MAAA,YAAY,CAAC,OAAb,CAAqB,cAArB,CAAoC,CAAC,WAArC,CAAA,CAAA,CADY;IAAA,CAAb;;yBAAA;;MADD,CAAA;;AAAA,EAIA,OAAO,CAAC,MAAR,CAAe,KAAf,CAAqB,CAAC,GAAtB,CAA0B,CAAC,cAAD,EAAiB,aAAjB,CAA1B,CAJA,CAAA;AAAA"
+}

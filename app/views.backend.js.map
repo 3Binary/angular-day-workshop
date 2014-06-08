@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "views.backend.js",
+  "sourceRoot": "",
+  "sources": [
+    "views.backend.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,MAAA,YAAA;;AAAA,EAAM;AACQ,IAAA,sBAAC,YAAD,GAAA;AACZ,MAAA,YAAY,CAAC,OAAb,CAAqB,kBAArB,CAAwC,CAAC,WAAzC,CAAA,CAAA,CADY;IAAA,CAAb;;wBAAA;;MADD,CAAA;;AAAA,EAIA,OAAO,CAAC,MAAR,CAAe,KAAf,CAAqB,CAAC,GAAtB,CAA0B,CAAC,cAAD,EAAiB,YAAjB,CAA1B,CAJA,CAAA;AAAA"
+}

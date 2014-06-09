@@ -1,0 +1,46 @@
+<div class="container">
+	<notifications></notifications>
+
+	<form name="form" class="form-inline well" novalidate ng-submit="form.$valid && addEvent(event)">
+		<myinput caption="What" model="event.what"></myinput>
+		<myinput caption="Where" model="event.where"></myinput>
+		<myinput caption="When" model="event.when"></myinput>
+
+		<button type="submit" class="btn btn-success">Add Event</button>
+
+		<span ng-show="form.$invalid && !form.$pristine">Please address the above errors</span>
+	</form>
+
+	<form>
+		<div class="form-group">
+			<input ng-model="search" type="search" class="form-control" placeholder="Search..." />
+		</div>
+	</form>
+
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>id</th>
+				<th>
+					<a href="" ng-click="predicate='what';reverse=!reverse">What</a>
+				</th>
+				<th>
+					<a href="" ng-click="predicate='where';reverse=!reverse">Where</a>
+				</th>
+				<th>
+					<a href="" ng-click="predicate='when';reverse=!reverse">When</a>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="event in events | filter:search | orderBy:predicate:reverse">
+				<td>
+					<a title="{{event.event_id}}" href="#/event-brite/{{event.event_id}}">{{event.event_id | truncate:5:true}}</a>
+				</td>
+				<td>{{event.what}}</td>
+				<td>{{event.where}}</td>
+				<td>{{event.when}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

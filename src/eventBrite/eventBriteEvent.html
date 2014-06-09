@@ -1,0 +1,18 @@
+<div class="container">
+	<notifications></notifications>
+	
+	<a href="#/event-brite">Events</a>
+	
+	<div class="well clearfix">
+		<dl class="dl-horizontal">
+			<dt>id</dt><dd>{{event.event_id}}</dd>
+			<dt>What</dt><dd>{{event.what}}</dd>
+			<dt>Where</dt><dd>{{event.where}}</dd>
+			<dt>When</dt><dd>{{event.when}}</dd>
+		</dl>
+	</div>
+
+	<form>
+		<button ng-click="deleteEvent()" class="btn btn-danger">Delete Event</button>
+	</form>
+</div>

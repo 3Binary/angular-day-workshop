@@ -11,3 +11,14 @@ a fatarrow app
          /_/       |__|  (____  /__| (____  /__|   |__|   \____/ \/\_/
                               \/          \/
 ```
+
+
+## install
+```bash
+$ npm install
+```
+
+## run
+```bash
+$ gulp
+```

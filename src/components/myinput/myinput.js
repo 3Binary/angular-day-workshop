@@ -6,6 +6,6 @@ angular.module('app').directive('myinput', function () {
 			caption: '@',
 			model: '='
 		},
-		templateUrl: '/eventBrite/myinput.html'
+		templateUrl: '/components/myinput/myinput.html'
 	}
 });
